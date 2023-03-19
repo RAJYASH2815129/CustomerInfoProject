@@ -23,6 +23,7 @@ public class ShowRecordServlet4 extends HttpServlet
 		PrintWriter pw=response.getWriter();
 		try
 		{
+			System.out.println("database connection");
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection cn=DriverManager.getConnection("jdbc:mysql://localhost/jsp5","root","mysql");
 			String sql="select * from customerinfo where cid=?";
