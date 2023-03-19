@@ -1,0 +1,11 @@
+tb{
+	font-size:19px;
+}
+.bt{
+	font-size:19px;
+	padding:4px 14px;
+	color:white;
+	background-color: blue;
+	border: none;
+	cursor: hand;
+}
